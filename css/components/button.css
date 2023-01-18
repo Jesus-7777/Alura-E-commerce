@@ -1,0 +1,53 @@
+
+.btn__login {
+ display: block;
+ padding: 1rem 2.4rem;
+ border: thin solid var(--background-btn);
+ color: var(--background-btn);
+ font-weight: var(--font-weight-600);
+ line-height: 1rem;
+ border-radius: 8px;
+}
+.btn__login:hover{
+ border: thin solid var(--success-color);
+ color: var(--success-color);
+ transition-duration: 0.8s;
+}
+
+.botton__banner {
+ background-color: var(--background-btn);
+ border-radius: 8px;
+}
+.botton__banner :hover{
+ border-radius: 8px;
+}
+.btn__banner {
+ border-radius: 8px;
+ display: block;
+ padding: 1rem 1rem;
+ color: var(--white-color);
+ font-weight: var(--font-weight-600);
+}
+.btn__banner:hover {
+ background-color: var(--white-color);
+ border: thin solid var(--background-btn);
+ color: var(--background-btn);
+ transition-duration: 0.8s;
+}
+
+.btn__mensaje {
+ display: block;
+ width: 50%;
+ padding: 1rem;
+ margin-top: 1rem;
+ border-radius: 7px;
+ background-color: var(--primary-color);
+ border: thin solid var(--background-btn);
+ color: var(--white-color);
+ font-weight: 600;
+}
+.btn__mensaje:hover{
+ background-color: var(--white-color);
+ border: thin solid var(--background-btn);
+ color: var(--background-btn);
+}

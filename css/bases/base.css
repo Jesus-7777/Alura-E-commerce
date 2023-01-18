@@ -1,0 +1,105 @@
+:root {
+ /*?  Colores */
+ --background-total: #F5F5F5;
+ --white-color: #FFF;
+ --gray-color: #C0C0C0;
+ --gray-dark-color: #A9A9A9;
+ --black-color: #000000;
+ --link-color: #509EE3;
+ --primary-color: #0071ea;
+ --secondary-color: #d6eaff;
+
+ --warning-color: #df2525;
+ --success-color: #047900;
+ --transparency-color: #4d4d4d33;
+
+ /*? Fuente */
+ --fuente-ceniza-claro: #666666;
+ --fuente-ceniza-oscuro: #4F4C4C;
+ --fuente-negro-claro: #333333;
+ --fuente-preto:#464646;
+ --background-btn: #2A7AE4;
+ --font-weight-700:700;
+ --font-weight-500:500;
+ --font-weight-600:600;
+
+ --raleway: "Raleway",sans-serif;
+
+ /*? Planes */
+ --section-color: #EAF2FD;
+--font-size-input:1rem;
+
+
+ --max-width:1200px;
+ --header-height:4rem;
+}
+
+html {
+ box-sizing: border-box;
+ font-family: var(--raleway);
+ font-size: 16px;
+ scroll-behavior: smooth;
+ 
+}
+
+*,
+*::after,
+*::before {
+ box-sizing: inherit;
+}
+
+body {
+ font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1400 - 300)));
+ background-color: var(--white-color);
+}
+
+a {
+ text-decoration: none;
+ cursor: pointer;
+}
+
+
+h1{
+ margin: 0;
+ font-size: 2rem;
+}
+h2{
+ margin: 0;
+ font-size: 1.5rem;
+}
+h3{
+ margin: 0;
+ font-size: 1.25rem;
+}
+h4{
+ margin: 0;
+ font-size: 1rem;
+}
+h5{
+ margin: 0;
+ font-size: 0.85rem;
+ 
+}
+h6{
+ margin: 0;
+ font-size: 0.7rem;
+}
+
+
+ul,
+li {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+
+img,
+video,
+iframe {
+ max-width: 100%;
+ height: auto;
+}
+
+p{
+ margin: 0;
+}

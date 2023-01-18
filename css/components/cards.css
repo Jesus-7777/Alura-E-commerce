@@ -1,0 +1,39 @@
+.all__card {
+ width: 100%;
+}
+
+.image__titulo {
+ font-weight: 700;
+ font-size: 1rem;
+ font-weight: 1.188rem;
+ color: var(--fuente-preto);
+}
+
+.card__img {
+ border-radius: 0.5rem 0.5rem 0 0;
+ width: 100%;
+ object-fit: cover;
+ height: auto; 
+}
+
+.card__contenido h4 {
+ font-weight: var(--font-weight-500);
+ line-height: 1rem;
+ color: var(--fuente-preto);
+ margin-top: 5px;
+}
+
+.card__contenido p {
+ font-weight: var(--font-weight-700);
+ line-height: 1.6rem;
+ color: var(--fuente-preto);
+ font-size: 17px;
+ margin-top: 5px;
+}
+
+.card__contenido a {
+ font-weight: var(--font-weight-700);
+ line-height: 1.6rem;
+ color: var(--background-btn);
+ font-size: 1rem;
+}
