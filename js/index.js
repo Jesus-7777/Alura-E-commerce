@@ -15,4 +15,15 @@ const mostrar=()=>{
 
 inputBuscar.addEventListener("click",mostrar);
 
-/* inputBuscar.onclick=mostrar; */
+/* inputBuscar.onclick=mostrar; 
+
+const bgImage = document.querySelector('.classname') 
+bgImage.style.backgroundImage = "url('your-image.png')"
+
+
+// Javascript createElement
+
+const divBackground = document.createElement("div")
+divBackground.style.background = 'url('your-image.png')'
+document.body.appendChild(divBackground)
+*/

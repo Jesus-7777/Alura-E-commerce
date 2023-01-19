@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+ <link type="text/css" rel="stylesheet" href="./css/bases/normalize.css">
+ <link type="text/css" rel="stylesheet" href="./css/bases/base.css">
+ <link type="text/css" rel="stylesheet" href="./css/components/header.css">
+ <link type="text/css" rel="stylesheet" href="./css/index.css">
+ <link type="text/css" rel="stylesheet" href="./css/utilities.css">
+ <link type="text/css" rel="stylesheet" href="./css/components/cards.css">
+ <link type="text/css" rel="stylesheet" href="./css/components/button.css">
+ <link type="text/css" rel="stylesheet" href="./css/components/inputs.css">
+
+ <link type="text/css" rel="stylesheet" href="./css/responsive.css">
+ <title>Vista producto</title>
+</head>
+
+<body>
+ <header class="header">
+  <div class="header__container">
+   <div class="logo__container">
+    <img src="./assets/icon-game.svg" alt="icono" class="game__logo">
+    <p>Alura</p>
+    <p>Geek</p>
+   </div>
+   <div class="menu__administrador">
+    <div class="login__container centrar__contenido">
+     <a class="btn__login" href="#">Menu administrador</a>
+    </div>
+   </div>
+   </div>
+  </div>
+ </header>
+ <main class="main">
+
+
+
+  <section class="agregar">
+
+  </section>
+
+  <section class="nosotros">
+   <div class="nosotros__container">
+    <div class="nosotros__logo">
+     <img src="./assets/icon-game.svg" alt="icono" class="logo__nocotros">
+     <p>Alura</p>
+     <p>Geek</p>
+    </div>
+    <div class="info__nosotros">
+     <ul class="nosotros__links">
+      <li class="item__nosotros">Quienes somos</li>
+      <li class="item__nosotros">Politica de privacidad</li>
+      <li class="item__nosotros">Programa de fidelidad</li>
+      <li class="item__nosotros">Nuestras tiendas</li>
+      <li class="item__nosotros">Quiero ser franquiciado</li>
+      <li class="item__nosotros">Anúncie aqui</li>
+     </ul>
+    </div>
+    <div class="hable__nosotros">
+     <h4>Hable con nosotros</h4>
+     <form class="formulario__contacto" data-form>
+
+      <div class="input-container">
+       <input name="nombre" id="nombre" class="input" type="text" placeholder="Nombre" required data-tipo="nombre" />
+       <label class="input-label" for="nombre">Nombre</label>
+       <span class="input-menssage-error">Este campo es requerido</span>
+      </div>
+      <div class="texarea-container">
+       <textarea name="area" id="area" class="textarea" placeholder="Mensaje..." data-tipo="texto"></textarea>
+       <span class="input-menssage-error">Este campo es requerido</span>
+      </div>
+      <button type="submit" class="btn__mensaje box-shadow-1">Enviar mensaje</button>
+     </form>
+    </div>
+   </div>
+  </section>
+ </main>
+ <footer class="footer">
+  <div class="footer__container">
+   <p class="footer__autor">Desarrollado por Jesus Narvaez</p>
+   <p class="footer__fecha">2022</p>
+  </div>
+ </footer>
+ <script type="module" src="./js/index.js"></script>
+</body>
+
+</html>

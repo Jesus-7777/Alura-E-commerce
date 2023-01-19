@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
  <meta charset="UTF-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,12 +16,10 @@
  <link type="text/css" rel="stylesheet" href="./css/components/cards.css">
  <link type="text/css" rel="stylesheet" href="./css/components/button.css">
  <link type="text/css" rel="stylesheet" href="./css/components/inputs.css">
-
+ 
  <link type="text/css" rel="stylesheet" href="./css/responsive.css">
- <title>E-commerce</title>
- <link rel="icon" href="./assets/icono-page.jpg">
+ <title>Vista producto</title>
 </head>
-
 <body>
  <header class="header">
   <div class="header__container">
@@ -31,167 +28,75 @@
     <p>Alura</p>
     <p>Geek</p>
     <div class="header__barra-buscador">
-     <form class="header__form-busqueda">
+     <form class="header__form-busqueda" >
       <input type="text" name="buscador" id="buscador" class="header__input-busqueda" placeholder="¿Que deseas buscar?">
       <img src="./assets/lupa.svg" alt="">
      </form>
     </div>
    </div>
-
-   <div class="login__container centrar__contenido">
-    <a class="btn__login" href="#">Login</a>
-   </div>
-
+   
    <div class="lupa__buscador center__derecha">
     <a id="busqueda" data-form-search><img src="./assets/lupa.svg" class="lupa" alt="lupa"></a>
    </div>
   </div>
  </header>
-
  <main class="main">
 
   <form class="ocultar" data-form>
    <input type="text" name="buscador" id="buscador" class="input__busqueda" placeholder="Buscar..." data-form-input>
   </form>
-  <section class="banner">
-
-   <h5 class="titulo__banner">Febrero Promocional</h5>
-   <p class="banner__descuento">Productos seleccionados con 33% de descuento</p>
-   <div class="botton__banner">
-    <a class="btn__banner box-shadow-1" href="#consolas">Ver Consolas</a>
+  <section class="producto">
+   <div class="contenido__producto">
+    <div class="imagen__producto">
+     <img src="./assets/taza-trooper.jpg" alt="cabeza veder">
+    </div>
+    <div class="producto__descripcion">
+     <h2>Producto XYZ</h2>
+     <p>$60.00</p>
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, provident debitis molestiae explicabo exercitationem vero illum voluptatibus doloremque adipisci consequatur inventore ex possimus? Labore exercitationem eos hic quis eveniet similique.</p>
+    </div>
    </div>
-
   </section>
-  <section class="starwars">
+  <section class="similares">
    <div class="producto__container">
     <div class="titulo__section">
-     <h2>Star Wars</h2>
-     <a href="./productos.html">Ver todo <img src="./assets/derecha.svg" alt="icono derecha"></a>
+     <h2>Productos similares</h2>
     </div>
     <div class="card all__card ">
-     <div class="imagen">
-      <img src="./assets/taza-trooper.jpg" class="card__img box-shadow-1" alt="vaso trooper">
-     </div>
+     <img src="./assets/taza-trooper.jpg" class="card__img box-shadow-1" alt="vaso trooper">
      <div class="card__contenido">
       <h4>Producto XYZ</h4>
       <p>R$ 60.00</p>
-      <a href="./vista-producto.html">Ver producto</a>
+      <a href="#">Ver producto</a>
      </div>
     </div>
     <div class="card all__card">
-     <div class="imagen">
-      <img src="./assets/cabeza-veder.jpg" class="card__img box-shadow-1" alt="cabeza veder">
-     </div>
+     <img src="./assets/cabeza-veder.jpg" class="card__img box-shadow-1" alt="cabeza veder">
      <div class="card__contenido">
       <h4>Producto XYZ</h4>
       <p>R$ 60.00</p>
-      <a href="./vista-producto.html">Ver producto</a>
+      <a href="#">Ver producto</a>
      </div>
     </div>
     <div class="card all__card">
-     <div class="imagen">
-      <img src="./assets/yoda.jpg" class="card__img box-shadow-1" alt="yoda">
-     </div>
+     <img src="./assets/yoda.jpg" class="card__img box-shadow-1" alt="yoda">
      <div class="card__contenido">
       <h4>Producto XYZ</h4>
       <p>R$ 60.00</p>
-      <a href="./vista-producto.html">Ver producto</a>
+      <a href="#">Ver producto</a>
      </div>
     </div>
     <div class="card all__card">
-     <div class="imagen">
-      <img src="./assets/trooper.jpg" class="card__img box-shadow-1" alt="vaso trooper">
-     </div>
+     <img src="./assets/trooper.jpg" class="card__img box-shadow-1" alt="vaso trooper">
      <div class="card__contenido">
       <h4>Producto XYZ</h4>
       <p>R$ 60.00</p>
-      <a href="./vista-producto.html">Ver producto</a>
+      <a href="#">Ver producto</a>
      </div>
     </div>
    </div>
   </section>
-  <section id="consolas" class="consolas">
-   <div class="producto__container">
-    <div class="titulo__section">
-     <h2>Consolas</h2>
-     <a href="./productos.html">Ver todo <img src="./assets/derecha.svg" alt="icono derecha"></a>
-    </div>
-    <div class="card all__card">
-     <img src="./assets/control-xbox.jpg" class="card__img box-shadow-1" alt="vaso trooper">
-     <div class="card__contenido">
-      <h4>Control XYZ</h4>
-      <p>R$ 60.00</p>
-      <a href="./vista-producto.html">Ver producto</a>
-     </div>
-    </div>
-    <div class="card all__card">
-     <img src="./assets/play-v.jpg" class="card__img box-shadow-1" alt="cabeza veder">
-     <div class="card__contenido">
-      <h4>Control y consola XYZ</h4>
-      <p>R$ 60.00</p>
-      <a href="./vista-producto.html">Ver producto</a>
-     </div>
-    </div>
-    <div class="card all__card">
-     <img src="./assets/consola-nintendo.jpg" class="card__img box-shadow-1" alt="yoda">
-     <div class="card__contenido">
-      <h4> Consola XYZ</h4>
-      <p>R$ 60.00</p>
-      <a href="./vista-producto.html">Ver producto</a>
-     </div>
-    </div>
-    <div class="card all__card">
-     <img src="./assets/control-psp.jpg" class="card__img box-shadow-1" alt="vaso trooper">
-     <div class="card__contenido">
-      <h4>Control XYZ</h4>
-      <p>R$ 60.00</p>
-      <a href="./vista-producto.html">Ver producto</a>
-     </div>
-    </div>
-   </div>
-  </section>
-  <section class="diversos">
-   <div class="producto__container">
-    <div class="titulo__section">
-     <h2>Diversos</h2>
-     <a href="./productos.html">Ver todo <img src="./assets/derecha.svg" alt="icono derecha"></a>
-    </div>
-    <div class="card all__card">
-     <div class="imagen">
-      <img src="./assets/camisa-g.jpg" class="card__img box-shadow-1" alt="vaso trooper">
-     </div>
-     <div class="card__contenido">
-      <h4>Camisa Atari</h4>
-      <p>R$ 60.00</p>
-      <a href="./vista-producto.html">Ver producto</a>
-     </div>
-    </div>
-    <div class="card all__card">
-     <img src="./assets/snes.jpg" class="card__img box-shadow-1" alt="cabeza veder">
-     <div class="card__contenido">
-      <h4>Camisa SNES</h4>
-      <p>R$ 60.00</p>
-      <a href="./vista-producto.html">Ver producto</a>
-     </div>
-    </div>
-    <div class="card all__card">
-     <img src="./assets/sonic.jpg" class="card__img box-shadow-1" alt="yoda">
-     <div class="card__contenido">
-      <h4>Sonic</h4>
-      <p>R$ 60.00</p>
-      <a href="./vista-producto.html">Ver producto</a>
-     </div>
-    </div>
-    <div class="card all__card">
-     <img src="./assets/radio.jpg" class="card__img box-shadow-1" alt="vaso trooper">
-     <div class="card__contenido">
-      <h4>Radio</h4>
-      <p>R$ 60.00</p>
-      <a href="./vista-producto.html">Ver producto</a>
-     </div>
-    </div>
-   </div>
-  </section>
+  
   <section class="nosotros">
    <div class="nosotros__container">
     <div class="nosotros__logo">
@@ -236,5 +141,4 @@
  </footer>
  <script type="module" src="./js/index.js"></script>
 </body>
-
 </html>
