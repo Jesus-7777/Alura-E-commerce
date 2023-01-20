@@ -30,16 +30,6 @@
     <img src="./assets/icon-game.svg" alt="icono" class="game__logo">
     <p>Alura</p>
     <p>Geek</p>
-    <div class="header__barra-buscador">
-     <form class="header__form-busqueda">
-      <input type="text" name="buscador" id="buscador" class="header__input-busqueda" placeholder="¿Que deseas buscar?">
-      <img src="./assets/lupa.svg" alt="">
-     </form>
-    </div>
-   </div>
-
-   <div class="lupa__buscador center__derecha">
-    <a id="busqueda" data-form-search><img src="./assets/lupa.svg" class="lupa" alt="lupa"></a>
    </div>
   </div>
  </header>
@@ -49,28 +39,28 @@
    <input type="text" name="buscador" id="buscador" class="input__busqueda" placeholder="Buscar..." data-form-input>
   </form>
 
-  <section class="agregar">
-   <div class="producto__container">
-    <div class="titulo__agregar">
-     <h2>Productos similares</h2>
-     <a href="./agregar-producto.html" class="btn__agregar">Agregar producto</a>
+  <section class="login-section">
+   <div class="section__login-container">
+    <div class="nuevo__agregar">
+     <h2>Iniciar sesion</h2>
     </div>
-    <div class="card all__card ">
-     <div class="contain_image">
-      <!-- <img src="./assets/taza-trooper.jpg" class="card__img position__icons box-shadow-1 position__icons" alt="vaso trooper">-->
-       <button type="submit" class="btn__img"> 
-       <img src="./assets/delete.svg" alt="delete">
-      </button>
-      <button type="submit" class="btn__img">
-       <img src="./assets/edit.svg" alt="delete">
-      </button>
+    <form action="" class="formulario__contacto">
+     <div class="input-container">
+      <input name="email" id="email" class="input" type="email" placeholder="Email" required data-tipo="email">
+      <label class="input-label" for="email">Email</label>
+      <span class="input-message-error">Este campo no es valido</span>
      </div>
-     <div class="card__contenido">
-      <h4>Producto XYZ</h4>
-      <p>R$ 60.00</p>
-      <a href="#">Ver producto</a>
+     <div class="input-container">
+
+      <input name="password" id="password" class="input" type="password" placeholder="Contraseña" required
+       pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$"
+       title="Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales."
+       data-tipo="password">
+      <label class="input-label" for="password">Contraseña</label>
+      <span class="input-message-error">Este campo no es valido</span>
      </div>
-    </div>
+     <button type="submit" class="btn__agregar-producto box-shadow-1">Agegar Producto</button>
+    </form>
    </div>
   </section>
 

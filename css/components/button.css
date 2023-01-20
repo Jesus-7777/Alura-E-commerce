@@ -62,6 +62,7 @@
  padding: 1rem;
  margin-top: 1rem;
  border-radius: 7px;
+ text-align: center;
  background-color: var(--primary-color);
  border: thin solid var(--background-btn);
  color: var(--white-color);
@@ -80,4 +81,31 @@
 .btn__img img{
  width: 1.5rem;
  height: 1.5rem;
+}
+
+.btn__agregar-producto{
+ width: 60%;
+ padding: 1rem;
+ margin-top: 1rem;
+ border-radius: 7px;
+ background-color: var(--primary-color);
+ border: thin solid var(--background-btn);
+ color: var(--white-color);
+ font-weight: var(--font-weight-600);
+}
+
+.menu__administrador {
+ padding: 0.8rem 1rem;
+ border: thin solid var(--background-btn);
+ color: var(--background-btn);
+ font-weight: var(--font-weight-600);
+ line-height: 1rem;
+ font-size: 14px;
+ border-radius: 8px;
+}
+
+.menu__administrador:hover {
+ border: thin solid var(--success-color);
+ color: var(--success-color);
+ transition-duration: 0.8s;
 }

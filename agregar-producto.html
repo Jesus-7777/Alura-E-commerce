@@ -32,19 +32,50 @@
     <p>Geek</p>
    </div>
    <div class="menu__administrador">
-    <div class="login__container centrar__contenido">
-     <a class="btn__login" href="#">Menu administrador</a>
-    </div>
+     <a class="btn__administrador" href="#">Menu administrador</a>
    </div>
-   </div>
+  </div>
   </div>
  </header>
  <main class="main">
 
+  <section class="nuevo__producto">
+   <div class="neuvo__producto-container">
+    <div class="nuevo__agregar">
+     <h2>Agrega nuevo producto</h2>
+    </div>
+    <form class="formulario__contacto" data-form>
 
-
-  <section class="agregar">
-
+     <div class="input-container">
+      <input name="nombre" id="nombre" class="input" type="text" placeholder="Nombre" required data-tipo="nombre" />
+      <label class="input-label" for="nombre">Nombre</label>
+      <span class="input-menssage-error">Este campo es requerido</span>
+     </div>
+     <div class="input-container">
+      <input name="categoria" id="categoria" class="input" type="text" placeholder="Categoria" required
+       data-tipo="categoria" />
+      <label class="input-label" for="categoria">Categoria</label>
+      <span class="input-menssage-error">Este campo es requerido</span>
+     </div>
+     <div class="input-container">
+      <input name="precio" id="precio" class="input" type="text" placeholder="Precio" required data-tipo="precio" />
+      <label class="input-label" for="precio">Precio</label>
+      <span class="input-menssage-error">Este campo es requerido</span>
+     </div>
+     <div>
+      <div class="texarea-container">
+       <textarea name="area" id="area" class="textarea" placeholder="Mensaje..." data-tipo="texto"></textarea>
+       <span class="input-menssage-error">Este campo es requerido</span>
+      </div>
+     
+     <div>
+       <p>Cargar archivo</p>
+       <input type="file" name="file">
+     </div>
+     </div>
+     <button type="submit" class="btn__agregar-producto box-shadow-1">Agegar Producto</button>
+    </form>
+   </div>
   </section>
 
   <section class="nosotros">

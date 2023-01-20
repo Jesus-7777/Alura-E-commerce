@@ -15,7 +15,10 @@
  .banner__descuento {
   font-size: 1.2rem;
  }
-
+ .barra__buscador {
+  width: 70%;
+ 
+ } 
  .titulo__agregar {
   display: flex;
   flex-direction: row;
@@ -61,7 +64,12 @@
  }
 
  .logo__container {
-  width: 80%;
+  width: 100%;
+ }
+ .section__login-container{
+  width: 60%;
+  margin: 0 auto;
+  padding: 1rem 0;
  }
 
  .header__barra-buscador {
@@ -90,7 +98,7 @@
  .header__input-busqueda::placeholder {
   color: #A2A2A2;
  }
-
+ 
  .login__container {
   width: 30%;
  }
@@ -131,6 +139,10 @@
  .imagen__producto img {
   height: 100%;
  }
+ .btn__agregar-producto{
+  width: 40%;
+  
+ }
 
  .titulo__agregar {
   grid-column: span 4;
@@ -146,6 +158,10 @@
  .btn__img img{
   width: 1.2rem;
   height: 1.2rem;
+ }
+ .menu__administrador {
+  padding: 1rem 1rem;
+  
  }
 
  .btn__mensaje {
@@ -211,6 +227,12 @@
   padding-left: 9rem;
  }
 
+ .section__login-container{
+  width: 40%;
+  margin: 0 auto;
+  padding: 1rem 0;
+ }
+
  .contenido__producto {
   display: flex;
   gap: 1rem;
@@ -252,6 +274,10 @@
   font-weight: var(--font-weight-500);
  }
 
+ .neuvo__producto-container{
+  width: 40%;
+  margin: 0 auto;
+ }
  .titulo__section {
   grid-column: span 6;
  }

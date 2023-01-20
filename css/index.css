@@ -22,6 +22,10 @@
  font-weight: var(--font-weight-700);
  font-size: 1.4rem;
 }
+.formulario__busqueda{
+ width: 100%;
+}
+
 
 .banner__descuento{
  font-weight: var(--font-weight-600);
@@ -74,6 +78,29 @@
  color: var(--background-btn);
  line-height: 1.7rem;
 }
+.neuvo__producto-container{
+ width: 90%;
+ margin: 0 auto;
+}
+.nuevo__producto{
+ padding: 1rem 0;
+}
+
+.nuevo__agregar h2{
+ font-weight: var(--font-weight-700);
+ color: var(--fuente-preto);
+ line-height: 1.7rem;
+ padding: 1.5rem 0;
+}
+.formulario__contacto{
+ justify-content: center;
+}
+.section__login-container{
+ width: 80%;
+ margin: 0 auto;
+ padding: 1rem 0;
+}
+
 
 .nosotros{
  background-color: var(--section-color);
