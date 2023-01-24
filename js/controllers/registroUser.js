@@ -2,6 +2,10 @@ import { userServices } from "../services/userServices.js";
 
 
 const registroUser = document.querySelector("[data-formregistrouser]");
+
+
+
+
  registroUser?.addEventListener("submit", (event) => {
   event.preventDefault();
   const nombre = document.querySelector("[data-nombre]").value;
@@ -16,3 +20,4 @@ const registroUser = document.querySelector("[data-formregistrouser]");
    password,
   });
  });
+

@@ -1,10 +1,16 @@
 {
   "user": [
     {
-      "nombre": "jesus",
+      "nombre": "Narvaez",
       "email": "jesus@gmail.com",
-      "pasword": "Adsdsd787",
-      "id": "49bc9da3-4983-4565-9cad-ecd9b8592e64"
+      "password": "Aqwer1234",
+      "id": "33d26de9-801c-4253-95f3-8f456c644f53"
+    },
+    {
+      "nombre": "jesus",
+      "email": "francisco@gmial.com",
+      "password": "Aqwer1234",
+      "id": "12911b90-b17f-4909-94e7-01b4ab005796"
     }
   ],
   "product": [

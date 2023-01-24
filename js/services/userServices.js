@@ -1,18 +1,25 @@
-const crearUser= (nombre,email,pasword)=>{
- return fetch("http://localhost:3000/user",{
-  method:"POST",
-  headers:{
-   "Content-Type" : "application/json"
+const crearUser = (nombre, email, password) => {
+ return fetch("http://localhost:3000/user", {
+  method: "POST",
+  headers: {
+   "Content-Type": "application/json"
   },
-  body:JSON.stringify({
+  body: JSON.stringify({
    nombre,
    email,
-   pasword,
-   id:uuid.v4()
+   password,
+   id: uuid.v4()
   })
- })
-}
+ });
+};
 
-export const userServices={
- crearUser
+const getUser = () => {
+ return fetch("http://localhost:3000/user").then(respuesta => {
+  return respuesta.json();
+ });
+};
+
+export const userServices = {
+ crearUser,
+ getUser
 }
