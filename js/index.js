@@ -1,29 +1,44 @@
-const inputBuscar= document.querySelector("[data-form-search]");
+import {
+ validarForm
+} from "./controllers/validar-formulario.js";
+const inputs = document.querySelectorAll("input");
+const formularioLogin = document.querySelector("[data-formlogin]");
+const formularioContacto = document.querySelector("[data-formcontacto]");
 
-/* function mostrar(){
- const btnBuscar =document.querySelector("[data-form]")
- btnBuscar.classList.remove("ocultar");
- btnBuscar.classList.add("barra__buscador")
- console.log(btnBuscar)
-} */
 
-const mostrar=()=>{
- const btnBuscar =document.querySelector("[data-form]")
- btnBuscar.classList.remove("ocultar");
- btnBuscar.classList.add("barra__buscador")
+inputs.forEach(input => {
+ input.addEventListener("blur", (input) => {
+  validarForm(input.target);
+ });
+});
+
+
+if (formularioLogin) {
+ formularioLogin.addEventListener("submit", (event) => {
+  event.preventDefault(); //permite que elformulario no funcione de manera predeterminada
+  const email = document.querySelector("[data-email]").value;
+  const password = document.querySelector("[data-password]").value;
+  console.log({
+   email,
+   password
+  });
+ });
 }
 
-inputBuscar.addEventListener("click",mostrar);
+if (formularioContacto) {
+ formularioContacto.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const nombre = document.querySelector("[data-nombre]").value;
+  const texto = document.querySelector("[data-texto]").value;
+  console.log({
+   nombre,
+   texto
+  });
+ });
+}
 
-/* inputBuscar.onclick=mostrar; 
-
-const bgImage = document.querySelector('.classname') 
-bgImage.style.backgroundImage = "url('your-image.png')"
 
 
-// Javascript createElement
 
-const divBackground = document.createElement("div")
-divBackground.style.background = 'url('your-image.png')'
-document.body.appendChild(divBackground)
-*/
+
+

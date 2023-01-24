@@ -1,0 +1,23 @@
+.login-section {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+
+.section__login-container {
+ width: 80%;
+ height: 80vh;
+ padding: 1rem 0;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+.login__titulo h2{
+ font-weight: var(--font-weight-700);
+ color: var(--fuente-preto);
+ margin-bottom: 2rem;
+}

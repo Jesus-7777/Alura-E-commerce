@@ -20,7 +20,7 @@
 
  <link type="text/css" rel="stylesheet" href="./css/responsive.css">
  <title>E-commerce</title>
- <link rel="icon" href="./assets/icono-page.jpg">
+ <link rel="icon" href="./assets/icono-page.png">
 </head>
 
 <body>
@@ -196,7 +196,7 @@
   <section class="nosotros">
    <div class="nosotros__container">
     <div class="nosotros__logo">
-     <img src="./assets/icon-game.svg" alt="icono" class="logo__nocotros">
+     <img src="./assets/icon-game.svg" alt="icono" class="logo__nosotros">
      <p>Alura</p>
      <p>Geek</p>
     </div>
@@ -212,15 +212,14 @@
     </div>
     <div class="hable__nosotros">
      <h4>Hable con nosotros</h4>
-     <form class="formulario__contacto" data-form>
-
+     <form class="formulario__contacto" data-formcontacto>
       <div class="input-container">
-       <input name="nombre" id="nombre" class="input" type="text" placeholder="Nombre" required data-tipo="nombre" />
+       <input name="nombre" id="nombre" class="input" type="text" placeholder="Nombre" required data-nombre data-tipo="nombre" />
        <label class="input-label" for="nombre">Nombre</label>
        <span class="input-menssage-error">Este campo es requerido</span>
       </div>
       <div class="texarea-container">
-       <textarea name="area" id="area" class="textarea" placeholder="Mensaje..." data-tipo="texto"></textarea>
+       <textarea name="area" id="area" class="textarea" placeholder="Mensaje..." data-texto  data-tipo="texto"></textarea>
        <span class="input-menssage-error">Este campo es requerido</span>
       </div>
       <button type="submit" class="btn__mensaje box-shadow-1">Enviar mensaje</button>

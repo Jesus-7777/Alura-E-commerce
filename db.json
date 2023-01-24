@@ -1,0 +1,20 @@
+{
+  "user": [
+    {
+      "nombre": "jesus",
+      "email": "jesus@gmail.com",
+      "pasword": "Adsdsd787",
+      "id": "49bc9da3-4983-4565-9cad-ecd9b8592e64"
+    }
+  ],
+  "product": [
+    {
+      "nombre": "jesus",
+      "categoria": "dasd",
+      "precio": "asdad",
+      "descripcion": "asdasd",
+      "urlimagen": "",
+      "id": "PlnKwCC"
+    }
+  ]
+}

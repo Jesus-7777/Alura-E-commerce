@@ -33,9 +33,6 @@
     <p>Alura</p>
     <p>Geek</p>
    </div>
-   <div class="login__container centrar__contenido">
-    <a class="btn__login" href="./registro-user.html">Entrar</a>
-   </div>
   </div>
  </header>
  <main class="main">
@@ -43,9 +40,14 @@
   <section class="login-section">
    <div class="section__login-container">
     <div class="login__titulo">
-     <h2>Iniciar sesion</h2>
+     <h2>Registrar user</h2>
     </div>
-    <form  class="formulario__contacto" data-formlogin>
+    <form  class="formulario__contacto" data-formregistrouser>
+     <div class="input-container">
+      <input name="nombre" id="nombre" class="input" type="nombre" placeholder="nombre"  required data-nombre data-tipo="nombre">
+      <label class="input-label" for="nombre">Nombre</label>
+      <span class="input-menssage-error">Este campo no es valido</span>
+     </div>
      <div class="input-container">
       <input name="email" id="email" class="input" type="email" placeholder="Email"  required data-email data-tipo="email">
       <label class="input-label" for="email">Email</label>
@@ -59,7 +61,8 @@
       <label class="input-label" for="password">Contraseña</label>
       <span class="input-menssage-error">Este campo no es valido</span>
      </div>
-     <button type="submit" class="btn__agregar-producto box-shadow-1">Agegar Producto</button>
+
+     <button type="submit" class="btn__agregar-producto box-shadow-1">Entrar</button>
     </form>
    </div>
   </section>
@@ -70,8 +73,9 @@
    <p class="footer__fecha">2022</p>
   </div>
  </footer>
- 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
  <script type="module" src="./js/index.js"></script>
+ <script type="module" src="./js/controllers/registroUser.js"></script>
 </body>
 
 </html>
