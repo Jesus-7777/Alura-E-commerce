@@ -15,12 +15,31 @@
   ],
   "product": [
     {
-      "nombre": "jesus",
-      "categoria": "dasd",
-      "precio": "asdad",
-      "descripcion": "asdasd",
-      "urlimagen": "",
-      "id": "PlnKwCC"
+      "nombre": "taza veder",
+      "categoria": "star wars",
+      "precio": "7000",
+      "descripcion": "increible",
+      "urlimagen": "C:\\fakepath\\taza-trooper.jpg",
+      "idnuevo": "33d26de9-801c-4253-95f3-8f456c644f53",
+      "id": "ZaIrvDo"
+    },
+    {
+      "nombre": "veder",
+      "categoria": "star wars",
+      "precio": "7000",
+      "descripcion": "dasdada",
+      "urlimagen": "C:\\fakepath\\cabeza-veder.jpg",
+      "idnuevo": "33d26de9-801c-4253-95f3-8f456c644f53",
+      "id": "JctlKK5"
+    },
+    {
+      "nombre": "Narvaez",
+      "categoria": "diversos",
+      "precio": "7000",
+      "descripcion": "dsfsdfsf",
+      "urlimagen": "C:\\fakepath\\vr-people.jpg",
+      "idnuevo": "33d26de9-801c-4253-95f3-8f456c644f53",
+      "id": "SGKpl5w"
     }
   ]
 }

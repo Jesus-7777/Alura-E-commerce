@@ -1,4 +1,4 @@
-const crearProducto= (nombre,categoria,precio,descripcion,urlimagen)=>{
+const crearProducto= (nombre,categoria,precio,descripcion,urlimagen,idnuevo)=>{
  return fetch("http://localhost:3000/product",{
   method:"POST",
   headers:{
@@ -9,11 +9,20 @@ const crearProducto= (nombre,categoria,precio,descripcion,urlimagen)=>{
    categoria,
    precio,
    descripcion,
-   urlimagen
+   urlimagen,
+   idnuevo
   })
  })
 }
 
+
+const obtenerProductos=()=>{
+ return fetch("http://localhost:3000/product").then(respuesta => {
+  return respuesta.json();
+ });
+}
+
 export const productServices={
  crearProducto,
+ obtenerProductos
 }
